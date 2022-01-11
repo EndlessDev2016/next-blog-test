@@ -8,8 +8,6 @@ module.exports = (phase) => {
       },
       reactStrictMode: true,
       env: {
-        mongodb_username: 'lee',
-        mongodb_password: 'dltmdgns',
         mongodb_clustername: 'cluster0',
         mongodb_database: 'my-dev-site',
       },
@@ -22,8 +20,6 @@ module.exports = (phase) => {
     },
     reactStrictMode: true,
     env: {
-      mongodb_username: 'lee',
-      mongodb_password: 'dltmdgns',
       mongodb_clustername: 'cluster0',
       mongodb_database: 'my-site',
     },
